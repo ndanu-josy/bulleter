@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 import bulleter
 
 def read_file(this_file):

@@ -22,6 +22,9 @@ def read_file(my_file):
 
 
 def process_document():
+    '''
+    Function to capitalize and add * before every sentence
+    '''
     for i in read_file(my_file):
         cap_lines = i.capitalize()
         new_sentence = ("*"+cap_lines[0:])
@@ -35,11 +38,11 @@ def give_output():
       
 
 
-def main():
-    print("Enter name of file")
-    my_file = input()
-    read_file(my_file)
-    process_document()
-    give_output()
+# def main():
+#     # print("Enter the file name to convert")
+#     # my_file = input()
+#     read_file(my_file)
+#     process_document()
+#     give_output()
 
-main()
+# main()
